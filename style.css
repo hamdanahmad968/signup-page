@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(3, 65, 3, 0.952);
+}
+
+
+
+.left{
+    background: url(main.jpeg) no-repeat center;
+    background-size: cover;
+    height: 75vh;
+    width: 87vh;
+    position: absolute;
+    top: 80px;
+    left: 130px;
+    border-radius: 26px;
+}
+
+.right{
+    background-color: white;
+    height: 75vh;
+    width: 85vh;
+    position: absolute;
+    top: 80px;
+    left: 640px;
+    border-radius: 15px;
+    
+}
+
+.heading{
+    color: rgb(27, 150, 27);
+    position: absolute;
+    left: 81px;
+    top: 25px;
+    font-weight: 900;
+
+}
+
+.fb{
+    position: absolute;
+    font-family: sans-serif;
+    left: 220px;
+    top: 90px;
+    font-size: 12px;
+    padding: 7px;
+    border-radius: 12px;
+    background-color: white;
+     cursor: pointer;
+     border-color: white;
+}   
+
+.google{
+    position: absolute;
+    font-family: sans-serif;
+
+    left: 78px;
+    top: 90px;
+    font-size: 12px;
+    padding: 7px;
+    border-radius: 12px;
+    background-color: white;
+    cursor: pointer;
+    border-color: white;
+
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    height: 31px;
+    width: 344px;
+    position: absolute;
+    top: 174px;
+    right: 113px;
+
+    
+
+}
+
+.inputform{
+    margin: 12px;
+    padding: 5px;
+    background: none;
+    border-color: white;
+    
+}
+.mainbtn{
+    position: absolute;
+    top: 390px;
+    right: 130px;
+     font-size: 18px;
+    padding: 7px;
+    border-radius: 22px;
+    font-weight: 600;
+    background-color:rgb(27, 150, 27);
+    color: white; 
+    width: 320px;
+     cursor: pointer;
+}   
+
+
+.checkbox{
+    position: absolute;
+    left: 13px;
+    bottom: -145px;
+}
+
+.myform p{
+    margin-left: 30px;
+}
+
+span a{
+    color:rgb(27, 150, 27);
+    cursor: pointer;
+}
